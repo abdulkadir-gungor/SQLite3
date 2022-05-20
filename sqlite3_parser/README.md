@@ -39,3 +39,29 @@ pyinstaller --onefile  --icon=main.ico main.py
 
 Some Screenshot of the Working of the Program
 ---
+
+**Screenshot [1]
+
+![y1](https://user-images.githubusercontent.com/71177413/169545729-8d376381-a56c-4218-9655-a6ecaf486af1.JPG)
+
+**Screenshot [2]
+
+![y2](https://user-images.githubusercontent.com/71177413/169545775-fa25acfa-fa93-4a34-a95c-6417af655eab.JPG)
+
+**Screenshot [3]
+
+![y4](https://user-images.githubusercontent.com/71177413/169545872-caf3865a-073f-4b0a-9f7e-0053d5e44f4a.JPG)
+
+**Screenshot [4]
+
+![Y6](https://user-images.githubusercontent.com/71177413/169545949-dc2cdbd1-6098-43e8-818c-98af926a7582.JPG)
+
+**Screenshot [5]
+
+![y8](https://user-images.githubusercontent.com/71177413/169546021-45b7c580-4e13-4f84-86d0-e947b6b990be.JPG)
+
+
+Legal Warning
+---
+Run your tests on virtual machines. The responsibility for illegal use belongs to the user. Shared for educational purposes.
+
