@@ -8,7 +8,11 @@
 
 The algorithm used by the program
 ---
-Detects recorded data by reading the database file. It detects the bytes that are not related to the recorded data and writes them to the log file.
+Detects recorded data by reading the database file. It detects the bytes that are not related to the recorded data and writes them to the log file named "%time_stamp%_raw_recovery_data.log". Deletion process resets some identification data and initial header information, leaving other data intact. In this way, if the number of columns in the searched table is known, the size and type of data can be determined. However, this does not apply if the total size of the data and header information are severely damaged.Therefore, the success rate is not high. However, it is helpful. If the column number of the table to be found is given as the header size input to the program, the program tries to process this raw data. Writes the results to a file named "%time_stamp%_processed_recovery_data.log"
+
+**%time_stamp%_raw_recovery_data.log** [It is the file that holds the deleted raw data. It is quite successful in detecting deleted data.]
+ 
+**%time_stamp%_processed_recovery_data.log** [It is the file that holds the deleted defined data. The success rate in detecting deleted data is not high.]
 
 The Compiled Version of the Program Can be Downloaded from the Links Below.
 ---
