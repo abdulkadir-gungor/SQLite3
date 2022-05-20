@@ -107,7 +107,7 @@ sqlite3_recovery
 ---
  Finds deleted data or remnants of deleted data in the file structure of SQLite3 database. If the number of columns in a table is given, it produces two log files. If omitted, it just generates a log file.
  1) %time_stamp%_raw_recovery_data.log (It is the file that contains the raw data states of the deleted data or the remains. It is produced in any case.)
- 2) %time_stamp%_raw_recovery_data.log (If the number of columns in a table is given, it finds the deleted data in that table. If the header information of each deleted data is damaged, it may not identify that information. For this reason, the success rate of finding such deleted data decreases.)
+ 2) %time_stamp%_processed_recovery_data.log (If the number of columns in a table is given, it finds the deleted data in that table. If the header information of each deleted data is damaged, it may not identify that information. For this reason, the success rate of finding such deleted data decreases.)
 
 **Screenshot [1]**
 
