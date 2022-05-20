@@ -78,7 +78,7 @@ sqlite3_multithread
 
 **(Source) sqlite3_multithread**
 
-&emsp;[sqlite3_multithread](/sqlite3_multithread/README.md]
+&emsp;[sqlite3_multithread](/sqlite3_multithread/README.md)
 
 sqlite3_parser
 ---
