@@ -78,7 +78,7 @@ sqlite3_multithread
 
 **(Source) sqlite3_multithread**
 
-&emsp;[sqlite3_multithread](/sqlite3_multithread/README.md)
+&emsp;[sqlite3_multithread](/sqlite3_multithread/)
 
 sqlite3_parser
 ---
@@ -94,7 +94,7 @@ Does not use ready-made sqlite3 libraries, instead reads the database file by pa
 
 **(Source) Sqlite3 Parser**
 
-&emsp;[sqlite3_parser](/sqlite3_parser/README.md)
+&emsp;[sqlite3_parser](/sqlite3_parser/)
 
 <dl>
   <dt> (Executable) Sqlite3 Parser
@@ -119,7 +119,7 @@ sqlite3_recovery
 
 **(Source) Sqlite3 Recovery**
 
-&emsp;[sqlite3_recovery](/sqlite3_recovery/README.md)
+&emsp;[sqlite3_recovery](/sqlite3_recovery/)
 
 <dl>
   <dt> (Executable) Sqlite3 Recovery
