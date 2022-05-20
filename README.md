@@ -47,11 +47,11 @@ Projects
 ---
 **Proje Github Links**
 
-**[1) sqlite3_multithread](.../sqlite3_multithread/README.md) :** Single-thread and multi-thread usage examples in sqlite3 projects in Python language
+**[1) sqlite3_multithread](/sqlite3_multithread/README.md) :** Single-thread and multi-thread usage examples in sqlite3 projects in Python language
 
-**[2) sqlite3_parser](.../sqlite3_parser/README.md) :** It is an application that extracts recorded data and database information from SQLite3 files using b-tree algorithm. It does not process deleted data.
+**[2) sqlite3_parser](/sqlite3_parser/README.md) :** It is an application that extracts recorded data and database information from SQLite3 files using b-tree algorithm. It does not process deleted data.
 
-**[3) sqlite3_recovery](.../sqlite3_recovery/README.md) :** Finds deleted data or remnants of deleted data in the file structure of SQLite3 database.
+**[3) sqlite3_recovery](/sqlite3_recovery/README.md) :** Finds deleted data or remnants of deleted data in the file structure of SQLite3 database.
 
 
 sqlite3_multithread
