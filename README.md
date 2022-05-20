@@ -47,7 +47,7 @@ Projects
 ---
 **Proje Github Links**
 
-**[1) sqlite3_multithread](.../sqlite3_multithread/README.md) :** Multi-thread usage examples in sqlite3 projects in Python language
+**[1) sqlite3_multithread](.../sqlite3_multithread/README.md) :** Single-thread and multi-thread usage examples in sqlite3 projects in Python language
 
 **[2) sqlite3_parser](.../sqlite3_multithread/README.md) :** It is an application that extracts recorded data and database information from SQLite3 files using b-tree algorithm. It does not process deleted data.
 
@@ -56,7 +56,25 @@ Projects
 
 sqlite3_multithread
 ---
-aaa
+<dl>
+  <dt> File(s)
+  <dd>
+  <dd> SQLite3DB.py (It includes single-thread and multi-thread classes using SQLite3.)
+  <dd> singlethread_sqlite3_read_example.py (Example of reading data from sqlite3 database using the single-threaded class)
+  <dd> singlethread_sqlite3_write_example.py (Example of writing data from sqlite3 database using the single-threaded class)
+  <dd> multithread_sqlite3_read_example.py (Example of reading data from sqlite3 database using the multi-threaded class)
+  <dd> multithread_sqlite3_write_example.py(Example of writing data from sqlite3 database using the multi-threaded class)
+  <dd> test.sqlite3 (Example sqlite3 database. Content can be viewed with sqlite3 browser)
+</dl>
+
+
+**Single-Thread**
+![singlethread](https://user-images.githubusercontent.com/71177413/169505986-7f83e8ea-25d5-49d5-8395-022d5e900c65.JPG)
+
+
+**Multi-Thread**
+![multithread](https://user-images.githubusercontent.com/71177413/169506034-c75a070d-a5c4-459b-a63b-42adabe3087d.JPG)
+
 
 sqlite3_parser
 ---
