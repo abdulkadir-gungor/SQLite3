@@ -78,7 +78,22 @@ sqlite3_multithread
 
 sqlite3_parser
 ---
-aaa
+Does not use ready-made sqlite3 libraries, instead reads the database file by parsing.It parses the sqlite3 file structure using the b-tree algorithm and saves it in a separate file. It does not process deleted data.
+
+**Screenshot [1]**
+
+![s1](https://user-images.githubusercontent.com/71177413/169509541-bfd91283-2e21-4afd-8c2e-49ee195df2af.JPG)
+
+**Screenshot [2]**
+
+![s3](https://user-images.githubusercontent.com/71177413/169512193-2b3acd3a-c460-4494-8d50-b6aa91bea867.JPG)
+
+<dl>
+  <dt> (Executable) Sqlite3 Parser
+  <dd>
+  <dd> sqlite3_parser.rar --> zip password: "sqlite3_parser"
+  <dd> Link = https://drive.google.com/file/d/1JpVBakK6SbPSMnMIAoqp5EU5zlALY9Si/view?usp=sharing
+</dl>
 
 sqlite3_recovery
 ---
