@@ -27,7 +27,7 @@ Areas where SQlite(3) database is used
 </dl>
 
 <dl>
-  <dt> 3) Browsers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[example: https://github.com/abdulkadir-gungor/DPAPI]   
+  <dt> 3) Browsers &emsp; [example: https://github.com/abdulkadir-gungor/DPAPI]   
   <dd>
   <dd> a) Chrome
   <dd> b) Brave
@@ -76,6 +76,10 @@ sqlite3_multithread
 ![multithread](https://user-images.githubusercontent.com/71177413/169506034-c75a070d-a5c4-459b-a63b-42adabe3087d.JPG)
 
 
+**(Source) sqlite3_multithread**
+
+&emsp;[sqlite3_multithread](/sqlite3_multithread/README.md
+
 sqlite3_parser
 ---
 Does not use ready-made sqlite3 libraries, instead reads the database file by parsing.It parses the sqlite3 file structure using the b-tree algorithm and saves it in a separate file. It does not process deleted data.
@@ -87,6 +91,10 @@ Does not use ready-made sqlite3 libraries, instead reads the database file by pa
 **Screenshot [2]**
 
 ![s3](https://user-images.githubusercontent.com/71177413/169512193-2b3acd3a-c460-4494-8d50-b6aa91bea867.JPG)
+
+**(Source) Sqlite3 Parser**
+
+&emsp;[sqlite3_parser](/sqlite3_parser/README.md)
 
 <dl>
   <dt> (Executable) Sqlite3 Parser
@@ -105,16 +113,13 @@ sqlite3_recovery
 
 ![s2](https://user-images.githubusercontent.com/71177413/169513058-a82bb6ff-5467-42e3-a739-61b321e17b2c.jpg)
 
-
 **Screenshot [2]**
 
 ![s5](https://user-images.githubusercontent.com/71177413/169516775-1ff1cfc1-b205-4d53-a7e2-88da63a39412.jpg)
 
-
 **(Source) Sqlite3 Recovery**
-<pre>
-  [sqlite3_recovery](.../sqlite3_multithread/README.md)
-</pre> 
+
+&emsp;[sqlite3_recovery](/sqlite3_recovery/README.md)
 
 <dl>
   <dt> (Executable) Sqlite3 Recovery
