@@ -49,9 +49,9 @@ Projects
 
 **[1) sqlite3_multithread](.../sqlite3_multithread/README.md) :** Single-thread and multi-thread usage examples in sqlite3 projects in Python language
 
-**[2) sqlite3_parser](.../sqlite3_multithread/README.md) :** It is an application that extracts recorded data and database information from SQLite3 files using b-tree algorithm. It does not process deleted data.
+**[2) sqlite3_parser](.../sqlite3_parser/README.md) :** It is an application that extracts recorded data and database information from SQLite3 files using b-tree algorithm. It does not process deleted data.
 
-**[3) sqlite3_recovery](.../sqlite3_multithread/README.md) :** Finds deleted data or remnants of deleted data in the file structure of SQLite3 database.
+**[3) sqlite3_recovery](.../sqlite3_recovery/README.md) :** Finds deleted data or remnants of deleted data in the file structure of SQLite3 database.
 
 
 sqlite3_multithread
@@ -97,6 +97,32 @@ Does not use ready-made sqlite3 libraries, instead reads the database file by pa
 
 sqlite3_recovery
 ---
-aaa
+ Finds deleted data or remnants of deleted data in the file structure of SQLite3 database. If the number of columns in a table is given, it produces two log files. If omitted, it just generates a log file.
+ 1) %time_stamp%_raw_recovery_data.log (It is the file that contains the raw data states of the deleted data or the remains. It is produced in any case.)
+ 2) %time_stamp%_raw_recovery_data.log (If the number of columns in a table is given, it finds the deleted data in that table. If the header information of each deleted data is damaged, it may not identify that information. For this reason, the success rate of finding such deleted data decreases.)
+
+**Screenshot [1]**
+
+![s2](https://user-images.githubusercontent.com/71177413/169513058-a82bb6ff-5467-42e3-a739-61b321e17b2c.jpg)
 
 
+**Screenshot [2]**
+
+![s5](https://user-images.githubusercontent.com/71177413/169516775-1ff1cfc1-b205-4d53-a7e2-88da63a39412.jpg)
+
+
+**(Source) Sqlite3 Recovery**
+<pre>
+  [sqlite3_recovery](.../sqlite3_multithread/README.md)
+</pre> 
+
+<dl>
+  <dt> (Executable) Sqlite3 Recovery
+  <dd>
+  <dd> sqlite3_recovery.rar --> zip password: "sqlite3_recovery"
+  <dd> Link = https://drive.google.com/file/d/1FzenXC04iXa3efefbuqWDCVUs5aU460g/view?usp=sharing
+</dl>
+
+Legal Warning
+---
+Run your tests on virtual machines. The responsibility for illegal use belongs to the user. Shared for educational purposes.
