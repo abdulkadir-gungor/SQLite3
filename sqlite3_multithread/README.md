@@ -24,3 +24,8 @@ Multi-Thread
 ---
 
 ![multithread](https://user-images.githubusercontent.com/71177413/169506034-c75a070d-a5c4-459b-a63b-42adabe3087d.JPG)
+
+
+Legal Warning
+---
+Run your tests on virtual machines. The responsibility for illegal use belongs to the user. Shared for educational purposes.
