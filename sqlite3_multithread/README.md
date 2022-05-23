@@ -1,7 +1,7 @@
 
 # sqlite3_multithread
 
-Single-thread and multi-thread usage examples in sqlite3 projects in Python language
+Single-thread and multi-thread usage examples in sqlite3 projects in Python language. [Language : Python 3.8.5]
 
 <dl>
   <dt> File(s)
