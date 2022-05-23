@@ -32,7 +32,7 @@ pip install pyinstaller
 
 Compilation
 ---
-
+[Language : Python 3.8.5]
 ```
 pyinstaller --onefile  --icon=main.ico main.py
 ```
